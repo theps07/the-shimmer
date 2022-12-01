@@ -1,0 +1,119 @@
+0 q.bypass 0;
+0 q.read 50;
+0 q.spd 1; 0 q.spdF 0; 0 q.spdPh 0; 0 q.spdAmt 0;
+0 q.dur 50; 0 q.durF 0; 0 q.durPh 0; 0 q.durAmt 0;
+0 q.delL 0; 0 q.ldF 0; 0 q.ldPh 0; 0 q.ldAmt 0;
+0 q.delR 0; 0 q.rdF 0; 0 q.rdPh 0; 0 q.rdAmt 0;
+0 q.fdbk 0;
+0 q.decay 85;
+0 q.dw 0; 0 q.dwF 0; 0 q.dwPh 0; 0 q.dwAmt 0;
+
+
+9000 q.bypass 0, 1 9000 0.1;
+0 q.spdF 3 9000 0.1; 0 q.spdAmt 0.1 9000 0.01;
+
+9000 q.bypass 0 9000 0.1;
+
+9000 q.bypass 1 9000 0.1;
+0 q.read 200 9000 10;
+0 q.spdF 6 9000 0.1; 0 q.spdAmt 1 9000 0.01;
+0 q.dur 200 9000 10;
+
+9000 q.bypass 0 9000 0.1;
+
+9000 q.bypass 1 9000 0.1;
+0 q.read 100 9000 10;
+0 q.spd 4 9000 0.2; 0 q.spdF 3 9000 0.1; 0 q.spdAmt 4 9000 0.1;
+0 q.dur 100 9000 10; 0 q.durF 6 9000 0.1; 0 q.durAmt 100 9000 5;
+0 q.delL 200 9000 5; 
+0 q.delR 250 9000 5;
+0 q.fdbk 0.3 9000 0.1; 
+
+9000 q.bypass 1 9000 0.1;
+0 q.read 10 9000 1;
+0 q.spd 1 9000 0.01; 0 q.spdF 3 9000 0.1; 0 q.spdAmt 0.01 9000 0.01;
+0 q.dur 10 9000 1; 0 q.durF 6 9000 0.1; 0 q.durAmt 0 9000 0.1;
+0 q.delL 200 9000 5; 0 q.ldF 3 9000 0.1; 0 q.ldAmt 0.1 9000 0.01;
+0 q.delR 300 9000 5; 0 q.rdF 3 9000 0.1; 0 q.rdAmt 0.1 9000 0.01;
+
+27000 q.bypass 1 9000 0.1;
+0 q.read 125 9000 1;
+0 q.spd 1 9000 0.01; 0 q.spdF 3 9000 0.1; 0 q.spdAmt 0.05 9000 0.01;
+0 q.dur 25 9000 1; 0 q.durF 6 9000 0.1; 0 q.durAmt 1 9000 0.1;
+0 q.delL 200 9000 5; 0 q.ldF 3 9000 0.1; 0 q.ldAmt 1 9000 0.01;
+0 q.delR 300 9000 5; 0 q.rdF 3 9000 0.1; 0 q.rdAmt 1 9000 0.01;
+0 q.decay 50 9000 5;
+0 q.dwF 1 9000 0.1; 0 q.dwAmt 50 9000 1;
+
+27000 q.bypass 1 9000 0.1;
+0 q.read 500 9000 1;
+0 q.spd 0.5 9000 0.01; 0 q.spdF 3 9000 0.1; 0 q.spdAmt 4 9000 0.01;
+0 q.dur 500 9000 1; 0 q.durF 3 9000 0.1; 0 q.durAmt 500 9000 1;
+0 q.delL 200 9000 5; 0 q.ldF 3 9000 0.1; 0 q.ldAmt 1 9000 0.01;
+0 q.delR 300 9000 5; 0 q.rdF 3 9000 0.1; 0 q.rdAmt 1 9000 0.01;
+0 q.fdbk 0 9000 0.01;
+0 q.decay 0 9000 5;
+0 q.dwF 0 9000 0.1; 0 q.dwAmt 0 9000 1;
+
+27000 q.bypass 1 9000 0.1;
+0 q.read 500 9000 1;
+0 q.spd 4 9000 0.01; 0 q.spdF 6 9000 0.1; 0 q.spdAmt 0.3 9000 0.01;
+0 q.dur 50 9000 1; 0 q.durF 6 9000 0.1; 0 q.durAmt 5 9000 1;
+0 q.delL 200 9000 5; 0 q.ldF 6 9000 0.1; 0 q.ldAmt 1 9000 0.01;
+0 q.delR 300 9000 5; 0 q.rdF 6 9000 0.1; 0 q.rdAmt 1 9000 0.01;
+0 q.fdbk 0.3 9000 0.01;
+0 q.decay 85 9000 5;
+0 q.dw 5 9000 0.1; 0 q.dwF 5 9000 0.1; 0 q.dwAmt 0 9000 1;
+
+
+27000 q.bypass 1 9000 0.1;
+0 q.read 500 9000 1;
+0 q.spd 0.5 9000 0.01; 0 q.spdF 3 9000 0.1; 0 q.spdAmt 4 9000 0.01;
+0 q.dur 500 9000 1; 0 q.durF 3 9000 0.1; 0 q.durAmt 500 9000 1;
+0 q.delL 200 9000 5; 0 q.ldF 3 9000 0.1; 0 q.ldAmt 1 9000 0.01;
+0 q.delR 300 9000 5; 0 q.rdF 3 9000 0.1; 0 q.rdAmt 1 9000 0.01;
+0 q.fdbk 0 9000 0.01;
+0 q.decay 0 9000 5;
+0 q.dwF 0 9000 0.1; 0 q.dwAmt 0 9000 1;
+
+9000 q.bypass 1 3000 0.1;
+0 q.read 125 3000 1;
+0 q.spd 1 3000 0.01; 0 q.spdF 3 3000 0.1; 0 q.spdAmt 0.05 3000 0.01;
+0 q.dur 25 3000 1; 0 q.durF 6 3000 0.1; 0 q.durAmt 1 3000 0.1;
+0 q.delL 200 3000 5; 0 q.ldF 3 3000 0.1; 0 q.ldAmt 1 3000 0.01;
+0 q.delR 300 3000 5; 0 q.rdF 3 3000 0.1; 0 q.rdAmt 1 3000 0.01;
+0 q.decay 50 3000 5;
+0 q.dwF 1 3000 0.1; 0 q.dwAmt 50 1000 1;
+
+9000 q.bypass 1 3000 0.1;
+0 q.read 10 3000 1;
+0 q.spd 1 3000 0.01; 0 q.spdF 3 3000 0.1; 0 q.spdAmt 0.01 3000 0.01;
+0 q.dur 10 3000 1; 0 q.durF 6 3000 0.1; 0 q.durAmt 0 3000 0.1;
+0 q.delL 200 3000 5; 0 q.ldF 3 3000 0.1; 0 q.ldAmt 0.1 3000 0.01;
+0 q.delR 300 3000 5; 0 q.rdF 3 3000 0.1; 0 q.rdAmt 0.1 3000 0.01;
+
+9000 q.bypass 1 3000 0.1;
+0 q.read 100 3000 10;
+0 q.spd 4 3000 0.2; 0 q.spdF 3 3000 0.1; 0 q.spdAmt 4 3000 0.1;
+0 q.dur 100 3000 10; 0 q.durF 6 3000 0.1; 0 q.durAmt 100 3000 5;
+0 q.delL 200 3000 5; 
+0 q.delR 250 3000 5;
+0 q.fdbk 0.3 3000 0.1; 
+
+9000 q.bypass 1 3000 0.1;
+0 q.read 200 3000 10;
+0 q.spdF 6 3000 0.1; 0 q.spdAmt 1 3000 0.01;
+0 q.dur 200 3000 10;
+
+9000 q.bypass 0 9000 0.1;
+0 q.read 50;
+0 q.spd 1; 0 q.spdF 0; 0 q.spdPh 0; 0 q.spdAmt 0;
+0 q.dur 50; 0 q.durF 0; 0 q.durPh 0; 0 q.durAmt 0;
+0 q.delL 0; 0 q.ldF 0; 0 q.ldPh 0; 0 q.ldAmt 0;
+0 q.delR 0; 0 q.rdF 0; 0 q.rdPh 0; 0 q.rdAmt 0;
+0 q.fdbk 0;
+0 q.decay 85;
+0 q.dw 0; 0 q.dwF 0; 0 q.dwPh 0; 0 q.dwAmt 0;
+
+
+
